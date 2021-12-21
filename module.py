@@ -1,1 +1,3 @@
-1+1
+import time
+start = time.time()
+print(start)
