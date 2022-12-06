@@ -1,4 +1,4 @@
 # Databricks notebook source
 import os
-cpt = sum([len(files) for r, d, files in os.walk("/tmp/persist_data.parquet/")])
+cpt = [len(files) for r, d, files in os.walk("/tmp/")]
 print(cpt)
